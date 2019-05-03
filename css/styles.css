@@ -55,3 +55,9 @@ body{
     float: left;
     width: 33.33%;
   }
+  #All, #and {
+      display:none;
+  }
+#Our{
+    display:none;
+}
