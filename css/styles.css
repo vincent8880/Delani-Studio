@@ -6,7 +6,8 @@ background-repeat: no-repeat;
 width:1920px;
 background-size: 100%;
 width:100%;
-
+padding-bottom:0 auto;
+height:100%;
 }
 #image{
     padding-top: 200px;
@@ -19,7 +20,7 @@ width:100%;
     padding-bottom: 20px;
 }
 h2{
-    margin-top:0;
+    margin-top:10px;
     padding-top:0;
 }
 #section1{
@@ -27,4 +28,6 @@ h2{
     padding-bottom: 3.5%
 
 }
- 
+body{
+    text-align: center;
+}
