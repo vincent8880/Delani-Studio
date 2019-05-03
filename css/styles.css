@@ -54,6 +54,7 @@ body{
 .column {
     float: left;
     width: 33.33%;
+    padding-bottom:90px;
   }
   #All, #and {
       display:none;
