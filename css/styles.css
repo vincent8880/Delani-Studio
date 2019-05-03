@@ -44,3 +44,10 @@ body{
 #SERVICES p,#SERVICES h2{
     color:white;
 }
+#SERVICES h2{
+    padding-top:80px;
+
+}
+#f{
+    padding-bottom: 80px;
+}
