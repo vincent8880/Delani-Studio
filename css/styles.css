@@ -31,3 +31,8 @@ h2{
 body{
     text-align: center;
 }
+#services{
+    background-image: url("../images/mouse_click.png");
+    height:488px;
+    
+}
