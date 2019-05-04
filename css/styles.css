@@ -65,12 +65,13 @@ body{
 .column2{
     float:left;
     width:25%;
+
     
 }
 #work{
     height:300px;
     width:366px;
     height:100%;
-    width:100%;
+    width:80%;
     padding: 20px;
 }
