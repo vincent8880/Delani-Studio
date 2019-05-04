@@ -62,3 +62,15 @@ body{
 #Our{
     display:none;
 }
+.column2{
+    float:left;
+    width:25%;
+    
+}
+#work{
+    height:300px;
+    width:366px;
+    height:100%;
+    width:100%;
+    padding: 20px;
+}
