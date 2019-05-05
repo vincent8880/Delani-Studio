@@ -1,11 +1,12 @@
-#CONTACT{
-    background-image: url("../images/c_image.jpg");
-    height:683px;
-    background-repeat: no-repeat;
-    width:1920px;
-    background-size: 100%;
-    width:100%;
-    height:100%;
+#funny{
+height:683px;
+background-image: url("../images/c_image.jpg");
+width:1920px;
+width:100%;
+height:100%;
+padding-bottom:0 auto;
+background-size: cover;
+
     }
 .heading{
 text-align: center;
@@ -64,6 +65,7 @@ body{
     float: left;
     width: 33.33%;
     padding-bottom:90px;
+
   }
   #All, #and {
       display:none;
@@ -79,7 +81,7 @@ body{
     justify-items: center;
     margin-left: 150px;
     margin-right: 150px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     margin-top:20p;
     }
     .grid img {
@@ -87,3 +89,33 @@ body{
         box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
         max-width: 100%;
       }
+textarea{
+    height:250px;
+    width:250px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: stretch;
+    justify-items: center;
+    margin-left:450px;
+    margin-right: 500px;
+    margin-top: 20px;
+}
+#testbox {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+
+}
+    
+    .DESIGN, .DEV, .PROD {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width:33.33%;
+      
+    
+}
