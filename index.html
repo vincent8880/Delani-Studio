@@ -45,8 +45,7 @@
     </div>
     <h2>WHAT WE DO</h2>
     <div id="testbox">
-        
-            <div class="DESIGN">
+         <div class="DESIGN">
                 <img src="images/design_icon.png" id="design"/>
                 <h4 >DESIGN</h4>
                 <p id="Our">Our design practice offers a full range of services<br/>
@@ -67,8 +66,7 @@
                test-driven development and pair-programming.
               </p>
             </div>
-           
-            <div class="PROD">
+           <div class="PROD">
                 <img src="images/product_icon.png" id="product"/>
                 <h4>
                     PRODUCT MANAGEMENT
@@ -80,9 +78,7 @@
                     requirements evolve.
                 </p>
             </div>
-        
-        
-    </div>
+        </div>
     
 
  <div class="PORTFOLIO">
@@ -105,16 +101,17 @@
    <div id="funny">
        <div class="CONTACT">
        <h2>CONTACT US</h2>
-       <form>
+       <form name="for">
         <input type="text" class="input-field"
-         id="name" 
+         id="name" name="name"
          placeholder="Name..." required>
          <input type="email" name="email" 
          id="email" class="input-field" 
          required placeholder="Email...">  
        <br/><br/>
-       <textarea placeholder="Your message here..."></textarea>
-       <button id="submit" type="submit">Submit</button>
+       <textarea id="textarea" name="textarea" placeholder="Your message here..." required></textarea>
+       <br/>
+       <button id="submit" onclick="checkPass();" type="submit">Submit</button>
        </form>
        </div>
    </div>

@@ -141,3 +141,16 @@ input::placeholder{
 input{
     color:white:
 }
+#submit{
+    height:40px;
+    width:200px;
+}
+footer{
+    padding-top:10px;
+}
+.CONTACT h2{
+    color:white;
+}
+.heading h1,.heading h5{
+    color:white;
+}

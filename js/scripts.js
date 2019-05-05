@@ -1,3 +1,7 @@
+function checkPass(){
+  var name=document.getElementById("name");
+  alert(name + "thank you");
+}
 $(document).ready(function() {
     $("#design").click(function() {
       $("#Our").show();
@@ -49,3 +53,15 @@ $(document).ready(function() {
           }
         );
       });
+      
+  function checkPass(){
+    var name=document.for.name;
+    var email=document.for.email;
+    var message=document.for.textarea;
+    var name_length=name.value.length;
+    var email_length=email.value.length;
+    var message_length=message.value.length;
+    if(email_length !=0 && name_length !=0 && message_length != 0){
+           alert( "We have received your message.Thank you for reaching out to us");
+  }
+}
