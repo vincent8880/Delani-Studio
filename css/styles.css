@@ -91,8 +91,13 @@ body{
         max-width: 100%;
       }
 textarea{
-    height:250px;
-    width:250px;
+    height:300px;
+    width:800px;
+    background:transparent;
+
+}
+textarea::placeholder{
+    color:white;
 }
 .grid2{
     display: grid;
@@ -108,6 +113,7 @@ textarea{
     margin-top: 60px;
     display: flex;
     flex-direction: row;
+    color:black;
 
 }
     
@@ -119,4 +125,19 @@ textarea{
       width:33.33%;
       
     
+}
+.CONTACT{
+    padding-top: 80px;
+}
+.input-field{
+    width:400px;
+    height:20px;
+    background:transparent;
+    
+}
+input::placeholder{
+    color:white;
+  }
+input{
+    color:white:
 }

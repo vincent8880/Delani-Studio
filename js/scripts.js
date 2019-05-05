@@ -39,5 +39,13 @@ $(document).ready(function() {
      
            });
          });
-           
-  
+         $(document).ready(function() {
+         $(".work").hover(
+          function(){
+            $(this).fadeTo(500, 0.5);
+          },
+          function(){
+            $(this).fadeTo(500, 1);
+          }
+        );
+      });
