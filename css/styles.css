@@ -1,13 +1,14 @@
 #funny{
-height:683px;
 background-image: url("../images/c_image.jpg");
-width:1920px;
+background-repeat: no-repeat;
+width: 1920px;
+background-position: center center;
 width:100%;
-height:100%;
-padding-bottom:0 auto;
-background-size: cover;
+height:683px;
+background-position: 0% 0%;
+background-size: 100% 100%;
 
-    }
+}
 .heading{
 text-align: center;
 background-image: url("../images/h_img.jpg");
@@ -99,7 +100,7 @@ textarea{
     grid-gap: 20px;
     align-items: stretch;
     justify-items: center;
-    margin-left:450px;
+    margin-left:350px;
     margin-right: 500px;
     margin-top: 20px;
 }
