@@ -1,8 +1,8 @@
-##DELANI STUDIO
+## DELANI STUDIO
 This is a website portfolio about a coding studio listing some of 
 their projects,skills they offer and a message text box that allows
 anyone to contact them.
-##BASIC USAGE
+## BASIC USAGE
 The site can be accessed by any browser and any device.
 Below I address some technicalities, you may encounter when using the
 website
