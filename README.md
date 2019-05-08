@@ -14,7 +14,7 @@ website
    3.Under the CONTACT US part, you have to fill in your name, email and
    write a message so us to submit
 ```
-##DEVELOPMENT
+## DEVELOPMENT
 Developer:Vincent Ododo
 Email:ododovincent54@gmail.com
 You can contact me for any inquiries
