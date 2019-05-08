@@ -18,5 +18,5 @@ website
 Developer:Vincent Ododo
 Email:ododovincent54@gmail.com
 You can contact me for any inquiries
-##LICENSE
+## LICENSE
 https://github.com/vincent8880/Delani-Studio/blob/master/LICENSE.md
